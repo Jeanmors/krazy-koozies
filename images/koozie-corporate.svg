@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 340" role="img" aria-label="Ink-black corporate koozie with a logo placeholder">
+  <defs>
+    <linearGradient id="corp-can" x1="68" y1="40" x2="172" y2="40" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#8b949e"/>
+      <stop offset="22%" stop-color="#dfe4e8"/>
+      <stop offset="48%" stop-color="#f4f6f7"/>
+      <stop offset="72%" stop-color="#c5ccd3"/>
+      <stop offset="100%" stop-color="#7c868f"/>
+    </linearGradient>
+    <linearGradient id="corp-body" x1="42" y1="128" x2="198" y2="128" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0e0c0a"/>
+      <stop offset="18%" stop-color="#1c1915"/>
+      <stop offset="55%" stop-color="#3a3530"/>
+      <stop offset="82%" stop-color="#1c1915"/>
+      <stop offset="100%" stop-color="#0e0c0a"/>
+    </linearGradient>
+    <radialGradient id="corp-open" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#1c1915" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#1c1915" stop-opacity="0.85"/>
+    </radialGradient>
+    <linearGradient id="corp-shade" x1="160" y1="140" x2="200" y2="140" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0e0c0a" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#0e0c0a" stop-opacity="0.45"/>
+    </linearGradient>
+    
+    <filter id="corp-soft" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="6" stdDeviation="5" flood-color="#1c1915" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+
+  <!-- ground shadow -->
+  <ellipse cx="120" cy="314" rx="74" ry="12" fill="#1c1915" opacity="0.16"/>
+
+  <!-- can (behind koozie lip) -->
+  <g>
+    <path d="M68 52 L68 136 L172 136 L172 52" fill="url(#corp-can)"/>
+    <ellipse cx="120" cy="136" rx="52" ry="16" fill="#9aa3ad"/>
+    <ellipse cx="120" cy="52" rx="52" ry="17" fill="url(#corp-can)"/>
+    <ellipse cx="120" cy="48" rx="46" ry="13" fill="#b8c0c7"/>
+    <ellipse cx="120" cy="46" rx="40" ry="10" fill="#6f7880"/>
+    <ellipse cx="120" cy="44" rx="36" ry="8" fill="#cfd5da"/>
+    <!-- can highlight -->
+    <path d="M80 62 C84 62, 86 90, 86 110 C86 124, 82 132, 78 132" fill="#ffffff" opacity="0.28"/>
+    <!-- pull tab hint -->
+    <rect x="112" y="36" width="16" height="8" rx="3" fill="#d7dce0" stroke="#5c656c" stroke-width="1"/>
+  </g>
+
+  <!-- koozie body -->
+  <g filter="url(#corp-soft)">
+    <path d="M42 128 L50 290 A70 20 0 0 0 190 290 L198 128" fill="url(#corp-body)"/>
+    
+    
+    <!-- right wrap shade -->
+    <path d="M168 132 L182 290 A70 20 0 0 0 190 290 L198 128 Z" fill="url(#corp-shade)"/>
+    <!-- bottom ellipse -->
+    <ellipse cx="120" cy="290" rx="70" ry="20" fill="#0e0c0a"/>
+    <ellipse cx="120" cy="288" rx="66" ry="16" fill="#1c1915" opacity="0.7"/>
+    
+        <path d="M186 140 C190 180, 186 230, 182 278" fill="none" stroke="#1c1915" stroke-opacity="0.35" stroke-width="1.4" stroke-dasharray="3 4" stroke-linecap="round"/>
+        <path d="M54 140 C50 180, 54 230, 58 278" fill="none" stroke="#1c1915" stroke-opacity="0.2" stroke-width="1.2" stroke-dasharray="3 4" stroke-linecap="round"/>
+        
+  </g>
+
+  <!-- top opening: inside then rim -->
+  <ellipse cx="120" cy="128" rx="78" ry="24" fill="#000000"/>
+  <ellipse cx="120" cy="130" rx="62" ry="18" fill="url(#corp-open)"/>
+  <!-- can showing through the opening -->
+  <ellipse cx="120" cy="128" rx="52" ry="15" fill="#8b949e"/>
+  <ellipse cx="120" cy="126" rx="50" ry="13" fill="url(#corp-can)"/>
+  <!-- front lip highlight -->
+  <path d="M46 128 A74 24 0 0 0 194 128" fill="none" stroke="#3a3530" stroke-width="3" opacity="0.55"/>
+  <path d="M54 136 A66 16 0 0 0 186 136" fill="none" stroke="#1c1915" stroke-width="2" opacity="0.2"/>
+
+  <!-- printed design -->
+  <g>
+        <rect x="82" y="180" width="76" height="56" rx="4" fill="none" stroke="#f3efe6" stroke-width="2.4"/>
+        <text x="120" y="214" text-anchor="middle" font-family="Fredoka, sans-serif" font-size="18" font-weight="650" fill="#f3efe6">LOGO</text>
+        <text x="120" y="232" text-anchor="middle" font-family="Nunito, sans-serif" font-size="9" font-weight="700" fill="#f3efe6" letter-spacing="1.4">YOUR BRAND</text>
+        </g>
+</svg>
