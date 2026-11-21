@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Krazy Koozies logo mark">
+  <defs>
+    <linearGradient id="lg-can" x1="18" y1="6" x2="46" y2="6" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#8b949e"/>
+      <stop offset="50%" stop-color="#f4f6f7"/>
+      <stop offset="100%" stop-color="#7c868f"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="16" fill="#9c3b24"/>
+  <ellipse cx="32" cy="58" rx="16" ry="3" fill="#1c1915" opacity="0.2"/>
+  <!-- can -->
+  <path d="M22 10 L22 28 L42 28 L42 10" fill="url(#lg-can)"/>
+  <ellipse cx="32" cy="10" rx="10" ry="3.2" fill="#dfe4e8"/>
+  <ellipse cx="32" cy="9" rx="7" ry="2" fill="#6f7880"/>
+  <!-- koozie -->
+  <path d="M16 26 L18 52 A14 4 0 0 0 46 52 L48 26" fill="#ffcc33"/>
+  <path d="M16 26 L18 52 A14 4 0 0 0 46 52 L48 26" fill="#9c3b24" opacity="0.08"/>
+  <ellipse cx="32" cy="52" rx="14" ry="3.6" fill="#e0b52a"/>
+  <ellipse cx="32" cy="26" rx="16" ry="4.6" fill="#f0c63a"/>
+  <ellipse cx="32" cy="26.5" rx="11" ry="3" fill="#1c1915" opacity="0.55"/>
+  <ellipse cx="32" cy="26" rx="10" ry="2.5" fill="url(#lg-can)"/>
+  <text x="32" y="45" text-anchor="middle" font-family="Lilita One, Fredoka, sans-serif" font-size="11" fill="#1c1915">KK</text>
+</svg>
